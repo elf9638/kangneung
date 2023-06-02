@@ -15,7 +15,10 @@ body > #wrapper{height:auto;min-height:100%}
 			a{@extend %textHidden;display:inline-block;width:118px;height:28px;background:url(#{$img_url}/common/spr_layout.png) no-repeat 0 0 / 175px auto}
 		}
 		.topUtil{position:absolute;top:21px;right:20px;
-			button{display:inline-block;height:34px}
+			button{display:inline-block;height:34px;
+				&:after{}
+				&.btSos{width:30px;}
+			}
 		}
 	}
 
